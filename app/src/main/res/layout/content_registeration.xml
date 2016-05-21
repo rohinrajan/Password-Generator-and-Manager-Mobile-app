@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:padding="10dp"
+    android:background="#00A0B0"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_registeration"
+    tools:context="com.dbmsproject2.dbmsproject2.RegisterationActivity">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:text="@string/lbName"
+        android:textColor="#C3E1F9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etName"
+        android:hint="@string/htName"
+        android:textColor="#C3E1F9"
+        android:textColorHint="#C3E1F9"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvEmailID"
+        android:text="@string/lbEmailID"
+        android:textColor="#C3E1F9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etEmailID"
+        android:textColor="#C3E1F9"
+        android:textColorHint="#C3E1F9"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/htEmailID"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvUsername"
+        android:textColor="#C3E1F9"
+        android:text="@string/lbName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etUsername"
+        android:hint="@string/htUsername"
+        android:textColor="#C3E1F9"
+        android:textColorHint="#C3E1F9"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvNewPassword"
+        android:text="@string/lbNewPassword"
+        android:textColor="#C3E1F9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:textColor="#C3E1F9"
+        android:textColorHint="#C3E1F9"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/htNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvConfirmPassword"
+        android:text="@string/lbConfirmPassword"
+        android:textColor="#C3E1F9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:textColor="#C3E1F9"
+        android:textColorHint="#C3E1F9"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/htConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="@string/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnNewUser"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
